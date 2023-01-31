@@ -1,0 +1,86 @@
+.body-container {
+  background-color: whitesmoke;
+}
+.add {
+  height: 800px;
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: rgba(213, 239, 251, 0.918);
+}
+.add-image {
+  height: 800px;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.details {
+  display: grid;
+
+  grid-template-columns: 300px auto 600px;
+  grid-template-rows: 600px auto;
+  gap: 50px;
+  height: 600px;
+  margin: 100px;
+}
+.message {
+  display: grid;
+  font-size: 25px;
+}
+.message img {
+  height: 300px;
+  width: 500px;
+}
+.message .paragraph {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+.news {
+  height: auto;
+  width: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgba(213, 239, 251, 0.918);
+  font-size: 25px;
+  display: grid;
+  gap: 20px;
+}
+.news .fimg img {
+  height: 300px;
+  width: 500px;
+}
+.news .simg img {
+  height: 150px;
+  width: 200px;
+}
+.news .timg img {
+  height: 300px;
+  width: 500px;
+}
+.news .fimg img {
+  height: 300px;
+  width: 300px;
+}
+
+.news .comment input {
+  height: 30px;
+  width: 100px;
+}
+.news .new {
+  font-size: 30px;
+}
+.news .facebook img {
+  float: right;
+  height: 30px;
+  width: 30px;
+}
+
+.footer .b4 button{
+  
+  height: 300px;
+  width: 300px;
+}

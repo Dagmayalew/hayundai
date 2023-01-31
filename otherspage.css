@@ -1,0 +1,44 @@
+.body-container {
+  height: 1300px;
+}
+
+.details {
+  display: grid;
+
+  grid-template-columns: 300px auto;
+  grid-template-rows: 600px auto;
+  gap: 50px;
+  height: 600px;
+  margin: 100px;
+}
+.email {
+  padding-left: 500px;
+  font-size: 20px;
+}
+.message p {
+  font-size: 20px;
+}
+.message ul {
+  padding-left: 20px;
+  color: brown;
+  font-size: 20px;
+}
+.message select {
+  width: 100px;
+  height: 30px;
+}
+.message {
+  display: grid;
+  gap: 20px;
+}
+.corp {
+  display: grid;
+  gap: 10px;
+}
+.corp a {
+  font-size: 20px;
+}
+.details .ne {
+  padding-left: 50px;
+  padding-top: 50px;
+}

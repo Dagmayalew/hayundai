@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../hayundaforall.css" />
+    <link rel="stylesheet" href="../otherspage.css" />
+    <script src="https://kit.fontawesome.com/6ce86cd68a.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#icon").click(function () {
+          $("ul").toggleClass("show");
+        });
+      });
+    </script>
+    <style>
+      .body-container {
+        height: 1000px;
+      }
+      .message {
+        padding-top: 20px;
+        padding-left: 20px;
+      }
+      .message {
+        font-size: 30px;
+      }
+      .message .input input {
+        height: 30px;
+        width: 200px;
+      }
+      .message .cancel{
+        float: right;
+        padding-right: 900px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><img src="../m-_BW_200x90l_tr.gif" /></div>
+
+      <ul class="navigation">
+        <li><a href="../hayunda.html">Home</a></li>
+        <li><a  href="../about/aboutus.html">About</a></li>
+        <li><a href="../services/parts-sales.html">Services</a></li>
+        <li><a href="../training/Training.html">Training</a></li>
+        <li><a href="../News/newsedit.html">News</a></li>
+        <li><a href="../contact/contact-Us.html">Contact</a></li>
+        <li><a href="../feedback/feedback.html">Feedback</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+    <div class="body-container">
+      <div class="details">
+        <div class="login-form">
+          <h1>Login Form</h1>
+          <div class="remember-me">
+            <input type="text" name="username" placeholder="Username" />
+          </div>
+
+          <div class="remember-me">
+            <input type="password" name="password" placeholder="Password" />
+          </div>
+
+          <div class="checkbox">
+            Remember Me
+            <input type="checkbox" name="events" value="RM" />
+          </div>
+
+          <div class="login">
+            <input type="button" name="b" value="Log in" />
+          </div>
+
+          <a href="create account.html"> <h2>Create an account</h2></a>
+          <div class="remember-me">
+            <input type="search" name="s" value="search" />
+          </div>
+
+          <div class="search">
+            <input type="button" name="b" value="search" />
+          </div>
+          <h1>Recently added</h1>
+          <ul>
+            <li>
+              <a
+                href="recently added/Marathon Motor has launched the 6th round training.html"
+                >Marathon Motor has launched<br />
+                the 6th round training
+              </a>
+            </li>
+            <li>
+              <a href="recently added/CEO personal Asistant.html"
+                >Vacancy AnnouncementJob Title: CEO <br />
+                personal Assistant (PA)- Executive<br />
+                Assistant to CEO.
+              </a>
+            </li>
+            <li>
+              <a href="recently added/sra.html">ክፍት የሥራ መደብ ማስታወቂያ</a>
+            </li>
+            <li>
+              <a href="recently added/sltena.html">የሥልጠናና የሥራ ቅጥር ማስታወቂያ</a>
+            </li>
+            <li>
+              <a href="recently added/Customer Service.html"
+                >Customer Service</a
+              >
+            </li>
+            <li>
+              <a href="recently added/After Sales.html">After Sales</a>
+            </li>
+            <li>
+              <a href="recently added/desta.html">እንኳን ደስ አለን!</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="message">
+          <h1>Create Your account</h1>
+
+          <div class="input">
+            Email address
+            <input type="text" name="em" />
+          </div>
+          <div class="input">
+            username
+            <input type="text" name="em" />
+          </div>
+          <div class="input">
+            password
+            <input type="password" name="em" />
+          </div>
+          <div class="input">
+            confirm password
+            <input type="password" name="em" />
+          </div>
+          <div>
+            <a href="finished.html">Send</a>
+            <div class="cancel"><a href="../hayunda.html">Cancel</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="b1">
+        <h2>Most visited</h2>
+        <ul>
+          <li><a href="aboutus.html"> About Marathon Motor</a></li>
+          <li><a href=""> Vehicles</a></li>
+
+          <li>
+            <a href="">Marathon Motor to assemble Hyundai products</a>
+          </li>
+          <li><a href="">GRAND i1O Older</a></li>
+          <li><a href="">The New ATOS</a></li>
+        </ul>
+
+        Copyright 2022 - Marathon Motor Engineering Ethiopia
+      </div>
+      <div class="b2">
+        Contact Us<br />
+        Head Quarter: Saris<br />
+        Phone: +251 114 707 322<br />
+
+        Fax: +251 114 709 940<br />
+      </div>
+      <div class="b3">
+        whoIsOnline<br />
+        We have 23 guests and no members online
+      </div>
+      <div class="b4">
+        <a href="#Atos"><button>^</button></a>
+      </div>
+    </footer>
+  </body>
+</html>
